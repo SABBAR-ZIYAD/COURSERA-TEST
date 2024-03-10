@@ -1,0 +1,61 @@
+header {
+    font-family: cursive;
+    text-align: center;
+    padding-top: 5%;
+}
+
+section {
+    background-color: grey;
+    font-family: cursive;
+    border: 2px solid black;
+    padding-top: 0;
+    margin-bottom: 20px;
+    width: 30%; 
+    display: inline-block; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+}
+#cb{
+    margin-right: 2%;
+}
+h3 {
+    text-align: right;
+    border: 2px solid black;
+    padding-top: 0;
+    padding-right: 15%;
+    padding-bottom: 5px;
+    margin-left: 82%;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+.section1{
+    margin-left: 2%;
+}
+.chicken {
+    background-color: rosybrown;
+}
+
+.beef {
+    background-color: red;
+}
+
+.sushi {
+    background-color: darkkhaki;
+}
+
+
+@media only screen and (max-width: 992px) {
+    section {
+        width: 48%; 
+        margin-right: 2%; 
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* Mobile view */
+    section {
+        width: 100%;
+        margin-right: 0;
+        display: block;
+    }
+}
